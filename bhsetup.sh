@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 # =============================================================================
 # bh_setup.sh — BloodHound Legacy / Neo4j 4.4 Setup + Dump Import
-# Run location: /home/n1c/bloodhound/
+# Run location: ~/bloodhound/
 # Usage: sudo bash bh_setup.sh
 # =============================================================================
 
 set -euo pipefail
 
 # --- Config ------------------------------------------------------------------
-WORK_DIR="/home/n1c/bloodhound"
+WORK_DIR="~/bloodhound"
 DUMP_FILE="${WORK_DIR}/*.dump"          # auto-detects first .dump in dir
 NEO4J_VERSION="4.4"
-NEO4J_PASSWORD="BloodHound1337"        # change this if you want
+NEO4J_PASSWORD="<add a password here. Yes, a <default> is in the commit history. No it's not any of my passwords :P>"   # change this if you want
 NEO4J_DB="neo4j"
 LOG_FILE="${WORK_DIR}/bh_setup.log"
 # -----------------------------------------------------------------------------
