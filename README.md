@@ -1,6 +1,6 @@
 # bloodhound-kali
 
-Helper scripts for standing up BloodHound on a Kali Linux VM for lab and AD enumeration work.
+Helper scripts for standing up BloodHound on a Kali Linux VM for lab and AD enumeration work.....definitely vibecode "for science"....but hey it's been working for me for awhile now ¯\_(ツ)_/¯ 
 
 | Script | What it does |
 |---|---|
