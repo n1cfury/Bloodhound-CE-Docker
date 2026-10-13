@@ -1,4 +1,6 @@
 #!/bin/bash
+#Starts BloodHound CE. 
+#OPTIONAL: Adding bloodhound to /etc/hosts. Just create a bookmark.
 set -e
 
 BH_DIR="/home/n1c/bloodhound"
