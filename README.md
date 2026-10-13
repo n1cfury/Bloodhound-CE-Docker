@@ -28,10 +28,10 @@ Helper scripts for standing up BloodHound on a Kali Linux VM for lab and AD enum
 
 ## Directory layout
 
-Both scripts expect to run from `/home/n1c/bloodhound`. Change `WORK_DIR` or `BH_DIR` at the top of each script to match your system.
+Both scripts expect to run from `~/bloodhound`. Change `WORK_DIR` or `BH_DIR` at the top of each script to match your system.
 
 ```
-/home/n1c/bloodhound/
+~/bloodhound/
 ├── bh_setup.sh
 ├── bh_start.sh
 ├── docker-compose.yml    # BloodHound CE compose file (for bh_start.sh)
@@ -46,7 +46,7 @@ Both scripts expect to run from `/home/n1c/bloodhound`. Change `WORK_DIR` or `BH
 Loads an existing Neo4j 4.4 database dump, such as a prepared lab dataset, into a native Neo4j install.
 
 ```bash
-cp <your-data>.dump /home/n1c/bloodhound/
+cp <your-data>.dump ~/bloodhound/
 sudo bash bh_setup.sh
 ```
 
